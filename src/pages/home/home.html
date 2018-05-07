@@ -1,0 +1,30 @@
+<ion-content padding>
+  <div class="header">
+    <h1>CQ2快剪專門店</h1>
+    <h2>叫號系統</h2>
+  </div>
+  <ion-card>
+    <ion-card-header>
+      登入
+    </ion-card-header>
+    <ion-card-content>
+      <ion-item>
+        <ion-label>店鋪縣市</ion-label>
+        <ion-select [(ngModel)]="city">
+          <ion-option value="123">台北市</ion-option>
+          <ion-option value="231">新北市</ion-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-label>店鋪名稱</ion-label>
+        <ion-select [(ngModel)]="name">
+          <ion-option value="f">北車店</ion-option>
+          <ion-option value="m">新店店</ion-option>
+        </ion-select>
+      </ion-item>
+      <button ion-button >確認</button>
+    </ion-card-content>
+  </ion-card>
+
+
+</ion-content>
